@@ -1,0 +1,16 @@
+﻿@model IEnumerable<sansNom.Models.Article>
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+@{
+    double total = 0;   
+}
+<h2>Détail de la commande</h2>
+@foreach (var item in Model)
+{
+    <p>article : @item.titre @item.prix €</p>
+    total += item.prix;
+}
+
+<p>total de la commande : @total €</p>

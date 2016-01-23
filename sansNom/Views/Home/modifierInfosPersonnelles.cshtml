@@ -1,0 +1,23 @@
+﻿@model sansNom.Models.Client
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<h2>Modifier les informations personnelles</h2>
+
+<form action="/Home/FormModifierInfos" method="post">
+    <input type="hidden" name="idClientModif" value="@Model.Id" />
+
+    <label for="titre">Nom :</label>
+    <input type="text" name="nomClient" value="@Model.nom" id="titre" />
+
+    <label for="description">Prenom :</label>
+    <input type="text" value="@Model.prenom" name="prenomClient" id="description" />
+    <br />
+
+    <label for="prix">Mail :</label>
+    <input type="text" value="@Model.mail" name="mailClient" id="prix" />
+    <br />
+
+    <input type="submit" value="Modifier" id="submit" />
+</form>

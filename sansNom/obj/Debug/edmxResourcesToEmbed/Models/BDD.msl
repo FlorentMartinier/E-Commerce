@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BDDModelStoreContainer" CdmEntityContainer="BDDEntities4">
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="BDDModel.Article">
+        <MappingFragment StoreEntitySet="Articles">
+          <ScalarProperty Name="IdArticle" ColumnName="IdArticle" />
+          <ScalarProperty Name="titre" ColumnName="titre" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+          <ScalarProperty Name="enStock" ColumnName="enStock" />
+          <ScalarProperty Name="categorie" ColumnName="categorie" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="BDDModel.Client">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="estAdmin" ColumnName="estAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Commandes">
+      <EntityTypeMapping TypeName="BDDModel.Commande">
+        <MappingFragment StoreEntitySet="Commande">
+          <ScalarProperty Name="IdCommande" ColumnName="IdCommande" />
+          <ScalarProperty Name="idClient" ColumnName="idClient" />
+          <ScalarProperty Name="dateComande" ColumnName="dateComande" />
+          <ScalarProperty Name="etat" ColumnName="etat" />
+          <ScalarProperty Name="livraisonAdr" ColumnName="livraisonAdr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommandeArticles">
+      <EntityTypeMapping TypeName="BDDModel.CommandeArticle">
+        <MappingFragment StoreEntitySet="CommandeArticle">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="idCommande" ColumnName="idCommande" />
+          <ScalarProperty Name="idArticle" ColumnName="idArticle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paniers">
+      <EntityTypeMapping TypeName="BDDModel.Panier">
+        <MappingFragment StoreEntitySet="Paniers">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idArticle" ColumnName="idArticle" />
+          <ScalarProperty Name="idClient" ColumnName="idClient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tables">
+      <EntityTypeMapping TypeName="BDDModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

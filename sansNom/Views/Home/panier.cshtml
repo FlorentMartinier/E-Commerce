@@ -1,0 +1,36 @@
+﻿@model IEnumerable<KeyValuePair<sansNom.Models.Panier, sansNom.Models.Article>>
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<p style="margin-top: 10px; background-image: url(./images/cart.png); padding-top:40px; background-repeat: no-repeat; width:150px; height: 70px; background-position:center right;">Panier</p>
+</br></br>
+<p style="display: block; margin: 0 auto;">Liste des Articles</p>
+<br />
+<table border="1" width="50%">
+
+    @{
+        double total = 0;
+    }
+    @foreach (KeyValuePair<sansNom.Models.Panier, sansNom.Models.Article> item in Model)
+    {
+        total += item.Value.prix;
+        <tr>
+            <td>article : @item.Value.titre @item.Value.prix €</td>
+            <td>
+                <a href="/Home/supprimerArticlePanier/?idPanier=@item.Key.id">Supprimer</a>
+        </tr>
+    }
+</table>
+
+
+    @if (total != 0)
+    {
+        <p>le total de la commande est : @total €</p>
+
+    <a href="/Home/validerCommande/?prix=@total" class="button pink">Valider Commande</a>
+    }
+    else
+    {
+        <p>Aucun article dans le panier</p>
+    }

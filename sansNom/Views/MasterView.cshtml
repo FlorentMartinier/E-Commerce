@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "MasterView";
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Main Page</title>
+    <link href="/Content/css/style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/Content/js/jquery.js"></script>
+    <script type="text/javascript" src="/Content/js/jquery.cookie.js"></script>
+    <script src="/Content/js/myscript.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="header">
+            <a href="/Home/Index">Accueil</a>
+            @if (Session["mySession"] == null) { 
+                <ul id="identif">
+                    <li>
+                        <a href="#">S'identifier</a>
+                        <ul class="dropdown-inside">
+                            <form action="/Home/auth" method="post">
+                                <input type="text" id="login" placeholder="E-Mail" name="mailUser" />
+                                <input type="password" id="password" placeholder="Password" name="passwordUser" />
+                                <input type="submit" id="connecter" value="Connecter" />
+                            </form>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <a href="/Home/createAccount">Créer un compte</a>
+            }
+            
+            @if (Session["mySession"] != null)
+            {
+                
+                if (Session["estAdmin"] != null) { 
+                    <a href="/Home/createArticle">Ajoutez un article</a>
+                }
+                <a href="/Home/panier">Votre panier</a>
+                
+                <div id="pannel_user">
+                    <p>Bienvenue, @Session["nomClient"].ToString()</p>
+                    <ul id="identif">
+                        <li>
+                            <a href="#" style="color:#2B3740;">Votre Compte</a>
+                            <ul class="dropdown-inside compte_user">
+                                <li><a href="/Home/informationsPersonnelles/?idClient=@Session["mySession"].ToString()">Informations Personnelles</a></li>
+                                <li><a href="/Home/mesCommandes/?id=@Session["mySession"].ToString()">Mes commandes</a></li>
+                                <li><a href="/Home/deconnexion">Deconnexion</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            }
+ 
+            <div class="clear"></div>
+        </div>
+        <div id="content">
+
+            <div id="main">
+                @RenderBody()
+            </div>
+        </div>
+        <div id="footer">Copyrite</div>
+    </div>
+</body>
+</html>

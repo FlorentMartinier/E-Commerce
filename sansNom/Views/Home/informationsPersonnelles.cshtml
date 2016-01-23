@@ -1,0 +1,12 @@
+﻿@model sansNom.Models.Client
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<h2>Informations personnelles : </h2>
+
+<p>Prenom : @Model.prenom</p>
+<p>Nom : @Model.nom</p>
+<p>E-mail : @Model.mail</p>
+    
+<a href="/Home/modifierInfosPersonnelles/?idClient=@Model.Id">Modifier les informations</a>

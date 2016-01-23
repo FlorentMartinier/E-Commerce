@@ -1,0 +1,32 @@
+﻿@model IEnumerable<sansNom.Models.Article>
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+<div id="nav">
+    <a href="/Home/Index/?categorieArticle=homme">Homme</a>
+    <a href="/Home/Index/?categorieArticle=femme">Femme</a>
+    <a href="/Home/Index/?categorieArticle=enfant">Enfant</a>
+    <a href="/Home/Index">Tous les articles</a>
+
+</div>
+@foreach (var item in Model)
+{
+    <div class="small_card">
+        <img alt="Изображение" src="@item.photo" />
+        <div class="content">
+            <p><strong>@item.titre : </strong>@item.description</p>
+            <span>@item.prix €</span>
+            <p></p>
+            @if (Session["estAdmin"] != null) {
+                if (Session["estAdmin"]!=null)
+                {
+                    <a href="/Home/supprimerArticle/?id=@item.IdArticle" style="color: red">Supprimer</a> 
+                    <a href="/Home/modifierArticle/?id=@item.IdArticle" style="color: blue;">Modifier</a>
+                }
+            }
+            <a href="/Home/articlePreview/?id=@item.IdArticle" style="color: #9A9A9A;">Plus info</a>
+        </div>
+    </div>
+}
+<div class="clear"></div>
+         

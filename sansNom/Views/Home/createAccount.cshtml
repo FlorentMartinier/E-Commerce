@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<h2>Créez votre compte</h2>
+
+<form action="/Home/FormUser" method="post">
+    <p>Nom :<input type="text" name="nomUser" id="nom" /></p>
+
+    <p>Prenom :<input type="text" name="prenomUser" id="prenom" /></p>
+
+    <p>Email :<input type="email" name="mailUser" id="mail" /></p>
+
+    <p>Mot de passe :<input type="password" name="passwordUser" id="password" /></p>
+
+    <p><input type="submit" value="Creer" class="submit" /></p>
+</form>
+

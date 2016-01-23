@@ -1,0 +1,36 @@
+﻿@model sansNom.Models.Article
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<h2>Modifier article</h2>
+
+<form action="/Home/FormModifierArticle" method="post">
+    <input type="hidden" name="idArticle" value="@Model.IdArticle" />
+
+    <label for="titre">Titre :</label>
+    <input type="text" name="titreArticle" value="@Model.titre" id="titre" />
+
+    <label for="description">Description :</label>
+    <input type="text" value="@Model.description" name="descriptionArticle" id="description" />
+    <br />
+
+    <label for="prix">Prix :</label>
+    <input type="text" value="@Model.prix"  name="prixArticle" id="prix" />
+    <br />
+
+    <label for="quantite">Quantité :</label>
+    <input type="text" value="@Model.quantite"  name="quantiteArticle" id="quantite" />
+    <br />
+
+    <label for="categorie">Catégorie :</label>
+    <select name="categorieArticle">
+        <option value="femme">femme</option>
+        <option value="homme">homme</option>
+        <option value="enfant">enfant</option>
+    </select>
+    <br />
+    <br />
+
+    <input type="submit" value="Modifier" class="submit" />
+</form>

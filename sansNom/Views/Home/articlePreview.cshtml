@@ -1,0 +1,17 @@
+﻿@model sansNom.Models.Article
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<img src="@Model.photo" id="img_preview" />
+<p style="font-weight: bold; font-size: 2em">@Model.titre</p>
+<p>@Model.description</p>
+<p style="color: red;">@Model.prix €</p>
+<p style="font-size: 14px;">encore @Model.quantite exemplaires disponibles</p>
+@if (@Model.quantite > 0)
+{
+    if (Session["mySession"] != null)
+    {
+        <p><a href="/Home/ajouterPanier/?idArticlePanier=@Model.IdArticle&idClientPanier=@Session["mySession"]" class="button gray">mettre dans le panier</a></p>
+    }
+}

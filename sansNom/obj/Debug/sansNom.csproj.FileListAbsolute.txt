@@ -1,0 +1,60 @@
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\sansNom.dll.config
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\sansNom.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\sansNom.pdb
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\EntityFramework.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\EntityFramework.SqlServer.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\Newtonsoft.Json.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Net.Http.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Net.Http.WebRequest.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.Helpers.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.Mvc.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.Razor.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.WebPages.Deployment.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.WebPages.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.WebPages.Razor.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\EntityFramework.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\EntityFramework.SqlServer.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\Newtonsoft.Json.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Net.Http.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Net.Http.WebRequest.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.Helpers.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.Mvc.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.Razor.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.WebPages.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.WebPages.Deployment.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\bin\System.Web.WebPages.Razor.xml
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\obj\Debug\sansNom.dll
+c:\users\dada\documents\visual studio 2013\Projects\sansNom\sansNom\obj\Debug\sansNom.pdb
+C:\Users\dada\Documents\Visual Studio 2013\Projects\sansNom\sansNom\obj\Debug\sansNom.csprojResolveAssemblyReference.cache
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\sansNom.dll.config
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\sansNom.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\sansNom.pdb
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\EntityFramework.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\EntityFramework.SqlServer.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\Newtonsoft.Json.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Net.Http.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Net.Http.WebRequest.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.Helpers.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.Mvc.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.Razor.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.WebPages.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.WebPages.Razor.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\EntityFramework.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\EntityFramework.SqlServer.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\Newtonsoft.Json.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Net.Http.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Net.Http.WebRequest.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.Helpers.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.Mvc.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.Razor.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.WebPages.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\bin\System.Web.WebPages.Razor.xml
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\obj\Debug\sansNom.csprojResolveAssemblyReference.cache
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\obj\Debug\sansNom.dll
+C:\Users\dada\Desktop\Sonin_Martinier_projet.Net\ProjetECommerce\sansNom\obj\Debug\sansNom.pdb

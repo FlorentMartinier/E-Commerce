@@ -1,0 +1,10 @@
+﻿@model IEnumerable<sansNom.Models.Commande>
+@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<h2>Mes commandes</h2>
+@foreach (var item in Model)
+{
+    <p><a href="/Home/detailCommande/?idCommande=@item.IdCommande">Commande n° : @item.IdCommande</a></p>
+}

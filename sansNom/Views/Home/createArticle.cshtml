@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "/Views/MasterView.cshtml";
+}
+
+<h2>Créez votre article</h2>
+@using (Html.BeginForm("FormArticle", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <input type="text" name="titreArticle" id="titre" />
+
+    <label for="description">Description :</label>
+    <input type="text" name="descriptionArticle" id="description" />
+    <br />
+
+    <label for="prix">Prix :</label>
+    <input type="text" name="prixArticle" id="prix" />
+    <br />
+
+    <label for="quantite">Quantité :</label>
+    <input type="text" name="quantiteArticle" id="quantite" />
+    <br />
+
+    <label for="categorie">Catégorie :</label>
+    <select name="categorieArticle">
+        <option value="femme">femme</option>
+        <option value="homme">homme</option>
+        <option value="enfant">enfant</option>
+    </select>
+    <br />
+
+
+    <label for="categorie">Photo de l'article :</label>
+    <input type="file" name="photoArticle" id="photoArticle" />
+    <br />
+
+    <input type="submit" value="Creer" id="submit" />
+}
